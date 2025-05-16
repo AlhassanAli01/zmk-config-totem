@@ -30,10 +30,10 @@
 
 // Behavior configurations
 &mt {
-    flavor = "tap-preferred";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <150>;
+    quick-tap-ms = <100>;
     global-quick-tap;
+    flavor = "tap-preferred";
+    tapping-term-ms = <170>;
 };
 
 &lt {
@@ -92,7 +92,7 @@
        &kp Q       &kp W       &kp F        &kp P        &kp B             &kp J    &kp L        &kp U        &kp Y       &kp SEMI
        &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHFT T  &kp G             &kp M    &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
 &kp Q  &kp Z       &kp X       &kp C        &kp D        &kp V             &kp K    &kp H        &kp COMMA    &kp DOT     &kp FSLH      &kp BSLH
-                               &kp ESC      &lt NAV SPACE &lt MOUSE TAB    &lt SYM RET &lt NUM BSPC &kp DEL
+                               &kp ESC      &lt NAV SPACE &lt MOUSE TAB     &lt SYM RET &lt NUM BSPC &kp DEL
             >;
         };
 
@@ -181,9 +181,11 @@
 
             label = "FUN";
 
+            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
             //             ┃    F12    ┃    F7     ┃    F8     ┃    F9     ┃  BOOTLOAD ┃   ┃           ┃           ┃           ┃           ┃           ┃
-            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
+            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━
+                        // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
             //             ┃    F11    ┃    F4     ┃    F5     ┃    F6     ┃   RESET   ┃   ┃           ┃   SHIFT   ┃    CTRL   ┃    ALT    ┃    GUI    ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
             // ┃           ┃    F10    ┃    F1     ┃    F2     ┃    F3     ┃    CAPS   ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃
